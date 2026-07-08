@@ -17,3 +17,17 @@ Usage:
 ```bash
 python3 tools/disk_usage.py examples/sample_directory
 ```
+
+### log_parser.py
+
+Analyzes a log file and counts log levels:
+
+- ERROR
+- WARNING
+- INFO
+
+Usage:
+
+```bash
+python3 tools/log_parser.py examples/sample.log
+```
