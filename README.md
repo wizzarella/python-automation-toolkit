@@ -31,3 +31,13 @@ Usage:
 ```bash
 python3 tools/log_parser.py examples/sample.log
 ```
+
+### backup_zip.py
+
+Creates a zip backup from a source directory.
+
+Usage:
+
+```bash
+python3 tools/backup_zip.py examples/sample_directory backups/sample_directory.zip
+```
