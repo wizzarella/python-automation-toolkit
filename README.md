@@ -81,3 +81,19 @@ Usage:
 ```bash
 python3 tools/password_generator.py 16
 ```
+
+### csv_report.py
+
+Reads a CSV file and generates a simple summary report.
+
+The script shows:
+
+- number of rows
+- column names
+- totals for numeric columns
+
+Usage:
+
+```bash
+python3 tools/csv_report.py examples/cloud_costs.csv
+```
