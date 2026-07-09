@@ -2,6 +2,16 @@
 
 A collection of small Python scripts for Cloud, Linux, and DevOps automation practice.
 
+## Learning Focus
+
+This repository is a hands-on learning project created to practice Python automation with the standard library.
+
+The goal is not to build complex production tools, but to understand how small scripts can support Cloud, Linux, and DevOps workflows.
+
+## Platform Note
+
+The examples use `python3` and are intended for Linux/macOS terminal environments.
+
 ## Tools
 
 ### disk_usage.py
@@ -41,3 +51,14 @@ Usage:
 ```bash
 python3 tools/backup_zip.py examples/sample_directory backups/sample_directory.zip
 ```
+
+### ping_hosts.py
+
+Reads a list of hosts from a text file and checks whether each host is reachable using `ping`.
+
+Usage:
+
+```bash
+python3 tools/ping_hosts.py examples/hosts.txt
+```
+
