@@ -97,3 +97,24 @@ Usage:
 ```bash
 python3 tools/csv_report.py examples/cloud_costs.csv
 ```
+
+### system_info.py
+
+Displays basic information about the current system and Python runtime.
+
+The script shows:
+
+- operating system
+- OS version
+- machine architecture
+- hostname
+- current user
+- current directory
+- CPU count
+- Python version
+
+Usage:
+
+```bash
+python3 tools/system_info.py
+```
