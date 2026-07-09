@@ -71,3 +71,13 @@ Usage:
 ```bash
 python3 tools/port_checker.py google.com 80 443 22
 ```
+
+### password_generator.py
+
+Generates a random password using letters, digits, and punctuation.
+
+Usage:
+
+```bash
+python3 tools/password_generator.py 16
+```
