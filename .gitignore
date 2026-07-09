@@ -5,3 +5,6 @@ __pycache__/
 # Generated backup files
 backups/
 *.zip
+
+# macOS files
+.DS_Store

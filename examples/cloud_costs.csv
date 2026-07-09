@@ -1,0 +1,6 @@
+service,cost
+EC2,34.50
+S3,12.30
+RDS,48.90
+CloudWatch,8.25
+
