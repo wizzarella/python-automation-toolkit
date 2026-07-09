@@ -62,3 +62,12 @@ Usage:
 python3 tools/ping_hosts.py examples/hosts.txt
 ```
 
+### port_checker.py
+
+Checks whether one or more TCP ports are open on a target host.
+
+Usage:
+
+```bash
+python3 tools/port_checker.py google.com 80 443 22
+```
